@@ -1,0 +1,105 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{bbm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{algorithmic}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{courier}
+\usepackage{caption}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{booktabs}
+
+%---correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%--color
+\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
+\definecolor{limegreen}{rgb}{0.2, 0.8, 0.2}
+\definecolor{napiergreen}{rgb}{0.16, 0.5, 0.0}
+\definecolor{beaver}{rgb}{0.62, 0.51, 0.44}
+\definecolor{battleshipgrey}{rgb}{0.52, 0.52, 0.51}
+\definecolor{bole}{rgb}{0.47, 0.27, 0.23}
+
+%---stretch
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\setlength{\textfloatsep}{2pt plus 1.0pt minus 1.0pt}
+\setlength{\floatsep}{2pt plus 1.0pt minus 1.0pt}
+\setlength{\intextsep}{2pt plus 1.0pt minus 1.0pt}
+
+%---hyper-ref
+\hypersetup{
+  linktocpage,
+  colorlinks=true,
+  citecolor=red,
+  filecolor=blue,
+  linkcolor=red,
+  urlcolor=blue
+}
+
+%---listing
+\lstset{
+  basicstyle=\scriptsize\ttfamily,
+  frame=l,
+  xleftmargin=9pt,
+  framexleftmargin=0pt,
+  framexrightmargin=-5pt,
+  breakatwhitespace=false,              
+  breaklines=true,                    
+  captionpos=b,                         
+  commentstyle=\color{bole}, 
+  keywordstyle=\bfseries\color{napiergreen},
+  language=C++,
+  numbers=left,
+  numbersep=6pt,                        
+  backgroundcolor=\color{white},
+  fillcolor=\color{white},
+  rulecolor=\color{napiergreen},
+  numberstyle=\normalfont\tiny\color{bole},
+  morekeywords={SC_MODULE, SC_HAS_PROCESS, SC_METHOD, SC_THREAD, SC_SEC, SC_MS, SC_ZERO_TIME, sensitive, notify, wait, std, vector},
+}
+
+%---used to ref fig, listing, table, section
+\newcommand{\figref}{Fig. \ref}
+\newcommand{\lstref}{Listing \ref}
+\newcommand{\tabref}{Table \ref}
+\newcommand{\secref}{Section \ref}
+\newcommand{\chapref}{Chapter \ref}
+\newcommand{\defref}{Definition \ref}
+\newcommand{\theoref}{Theorem \ref}
+\newcommand{\lemref}{Lemma \ref}
+\newcommand{\proref}{Proposition \ref}
+
+%---new commands
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+
+\title{HanoiCaml Language}
+\author{Chan Ngo}
+\date{}
+
+\setlength{\topmargin}{-25mm}
+\setlength{\textwidth}{7.0in}
+\setlength{\oddsidemargin}{-8.5mm}
+\setlength{\textheight}{10.2in}
+
+\begin{document}
+\fontsize{10}{14}
+\selectfont
+\maketitle
+
+This document describes the HanoiCaml language.
+
+\end{document}
