@@ -1,2 +1,3 @@
 # hanoicaml
-hanoicaml is a tiny functional programming language implementation with LLVM in both C++ and OCaml. 
+gpucaml is a tiny functional programming language for GPU programming. The compiler of gpucaml is implemented with LLVM that can generate OpenCL code or Nvida assembly code.
+
